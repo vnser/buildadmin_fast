@@ -14,6 +14,7 @@ use think\model\relation\BelongsTo;
  */
 class Attachment extends Model
 {
+    protected $name = '_attachment';
     protected $autoWriteTimestamp = true;
     protected $updateTime         = false;
 
@@ -103,11 +104,11 @@ class Attachment extends Model
 
     public function admin(): BelongsTo
     {
-        return $this->belongsTo(Admin::class);
+        return $this->belongsTo(Admin::class, 'admin_id','id');
     }
 
     public function user(): BelongsTo
     {
-        return $this->belongsTo(User::class);
+        return $this->belongsTo(User::class, 'user_id','id');
     }
 }

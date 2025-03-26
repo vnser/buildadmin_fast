@@ -18,6 +18,7 @@ use think\Model;
  */
 class User extends Model
 {
+    protected $name = '_user';
     protected $autoWriteTimestamp = true;
 
     public function getAvatarAttr($value): string

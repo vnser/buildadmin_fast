@@ -1,1 +1,0 @@
-const t={id:"id",title:"title",icon:"icon",con_images:"con_images",weigh:"weigh",status:"status","status 0":"status 0","status 1":"status 1",remark:"remark",update_time:"update_time",create_time:"create_time","quick Search Fields":"id"};export{t as default};

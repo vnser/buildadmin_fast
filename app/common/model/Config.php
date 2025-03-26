@@ -8,6 +8,7 @@ use app\admin\model\Config as adminConfigModel;
 
 class Config extends Model
 {
+    protected $name = '_config';
     /**
      * 添加系统配置分组
      * @throws Throwable
