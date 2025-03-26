@@ -10,7 +10,7 @@ use think\model\relation\BelongsTo;
  */
 class DataRecycleLog extends Model
 {
-    protected $name = 'security_data_recycle_log';
+    protected $name = '_security_data_recycle_log';
 
     protected $autoWriteTimestamp = true;
     protected $updateTime         = false;

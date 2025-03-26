@@ -9,7 +9,7 @@ use think\Model;
  */
 class DataRecycle extends Model
 {
-    protected $name = 'security_data_recycle';
+    protected $name = '_security_data_recycle';
 
     protected $autoWriteTimestamp = true;
 }

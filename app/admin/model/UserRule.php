@@ -9,6 +9,7 @@ use think\model;
  */
 class UserRule extends model
 {
+    protected $name = '_auth_rule';
     protected $autoWriteTimestamp = true;
 
     protected static function onAfterInsert($model): void

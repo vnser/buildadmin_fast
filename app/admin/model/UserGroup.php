@@ -9,5 +9,7 @@ use think\Model;
  */
 class UserGroup extends Model
 {
+
+    protected $name = '_user_group';
     protected $autoWriteTimestamp = true;
 }

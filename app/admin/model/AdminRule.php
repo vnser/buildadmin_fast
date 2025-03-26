@@ -9,6 +9,7 @@ use think\Model;
  */
 class AdminRule extends Model
 {
+    protected $name = '_admin_rule';
     protected $autoWriteTimestamp = true;
 
     public function setComponentAttr($value)

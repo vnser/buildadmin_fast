@@ -10,7 +10,7 @@ use think\model\relation\BelongsTo;
  */
 class SensitiveDataLog extends Model
 {
-    protected $name = 'security_sensitive_data_log';
+    protected $name = '_security_sensitive_data_log';
 
     protected $autoWriteTimestamp = true;
     protected $updateTime         = false;

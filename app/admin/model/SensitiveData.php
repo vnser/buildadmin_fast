@@ -9,7 +9,7 @@ use think\Model;
  */
 class SensitiveData extends Model
 {
-    protected $name = 'security_sensitive_data';
+    protected $name = '_security_sensitive_data';
 
     protected $autoWriteTimestamp = true;
 

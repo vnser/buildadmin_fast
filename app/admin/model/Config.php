@@ -15,6 +15,7 @@ use think\facade\Cache;
  */
 class Config extends Model
 {
+    protected $name = '_config';
     public static string $cacheTag = 'sys_config';
 
     protected $append = [

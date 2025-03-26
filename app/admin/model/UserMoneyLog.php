@@ -14,6 +14,7 @@ use think\model\relation\BelongsTo;
  */
 class UserMoneyLog extends model
 {
+    protected $name = '_user_money_log';
     protected $autoWriteTimestamp = true;
     protected $updateTime         = false;
 

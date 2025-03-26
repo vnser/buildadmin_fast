@@ -10,7 +10,7 @@ use think\Model;
 class CrudLog extends Model
 {
     // 表名
-    protected $name = 'crud_log';
+    protected $name = '_crud_log';
 
     // 自动写入时间戳字段
     protected $autoWriteTimestamp = true;
