@@ -1,0 +1,19 @@
+view,swiper,swiper-item{
+	box-sizing: border-box;
+}
+.uni-swiper-dot {
+		width: 42rpx;
+		height: 8rpx;
+		border-radius: 136rpx;
+	}
+	.uni-swiper-wrapper{
+		position: relative;
+		width: 750rpx;
+		border: 1rpx solid red;
+	}
+	.uni-swiper-dots-horizontal{
+		position: absolute;
+		width: 750rpx;
+		top: 24rpx;
+		// left: 32rpx;
+	}

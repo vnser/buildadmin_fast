@@ -1,0 +1,1 @@
+const t={id:"ID",title:"品牌名称",icon:"品牌图标",con_images:"报价图集",weigh:"权重",status:"状态","status 0":"禁用","status 1":"启用",remark:"备注",update_time:"修改时间",create_time:"创建时间","quick Search Fields":"标题"};export{t as default};
