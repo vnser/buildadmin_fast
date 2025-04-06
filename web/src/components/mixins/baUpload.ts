@@ -1,6 +1,6 @@
 import type { AxiosRequestConfig } from 'axios'
 import type { UploadRawFile } from 'element-plus'
-import { sha1 } from 'js-sha1'
+// import { sha1 } from 'js-sha1'
 import { useSiteConfig } from '/@/stores/siteConfig'
 import createAxios from '/@/utils/axios'
 import { fullUrl, isAdminApp } from '/@/utils/common'
@@ -14,8 +14,8 @@ export const state = () => {
 export async function fileUpload(fd: FormData, params: anyObj = {}, config: AxiosRequestConfig = {}) {
     const siteConfig = useSiteConfig()
     const file = fd.get('file') as UploadRawFile
-    const sha1 = await getFileSha1(file)
-    const fileKey = getSaveName(file, sha1)
+    const sha1 = "await getFileSha1(file)"
+    const fileKey = ''
     fd.append('key', fileKey)
     for (const key in siteConfig.upload.params) {
         fd.append(key, siteConfig.upload.params[key])
